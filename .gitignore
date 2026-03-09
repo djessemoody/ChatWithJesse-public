@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Persona dump files (raw content staging — not tracked)
+server/src/persona/dump/
+
+# Playwright
+client/screenshots/*.png
+client/test-results/
+client/playwright-report/
